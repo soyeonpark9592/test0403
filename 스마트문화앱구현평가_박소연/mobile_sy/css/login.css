@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+*,*::after,*::before {box-sizing: border-box;}
+body {font-size: 0.8rem; color: #333;  }
+a {text-decoration: none; color: #333;}
+
+#head {width:100%; height: 60px; 
+    background: #f47054; 
+    left: 0; top: 0; position: fixed;
+    z-index: 1000000;}
+
+#header {width: 90%; height: 60px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#header ul {
+    margin: 0 auto;
+    width: 33.33%; height: 100%;
+    line-height: 60px;
+    }
+
+.logo {text-align: center;}
+.logo img {width: 60px;}
+
+#header .button {
+    float: left; width: 10%; height: 100%;
+}
+.button img {opacity: 0.8; width:20px; 
+     transform: translateY(7px); }
+
+
+
+.tm {width: 100%;
+ position: absolute; right: 0; top:0;
+ line-height: 60px; 
+ display: flex;
+ justify-content: flex-end;
+ 
+ 
+
+}
+.tm li {
+    height: 60px;    
+    margin-left: 5px;     
+}
+
+.tm li img {
+    width: 25px; 
+    margin-top: 15px; 
+}
+
+/* section */
+
+section { 
+    position: relative; top: 60px; left: 0; 
+    width: 100%; 
+}
+
+.login {
+    width: 100%; 
+    margin: 100px auto;
+    position: relative;
+   
+
+}
+
+
+#box {
+    width: 90%; 
+    margin:  auto;
+
+}
+.login h2 {
+    color: #333;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 100%; 
+    height: 50px; line-height: 50px;
+
+}
+
+
+#form {
+    text-align: center;
+    line-height: 50px;
+}
+
+#form ul {padding: 5px 0; margin: -3px 0;  }
+
+#id1 input {padding: 10px 40px; transform: translateY(1px);}
+#id2 input {padding: 10px 40px; transform: translateY(1px);}
+
+#id3 li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 0.7rem;
+} 
+
+#id3 li:last-child {
+    margin-left: -20px;
+}
+
+
+/* #button .btn {padding: 10PX 100px;border-radius: 5px;background:#dd5233;color:#fff;text-align:center;border:none;outline:none;} */
+#button .log {padding:10px 100px;}
+#button a {padding:10px 93px;border-radius: 5px;background:#dd5233;color:#fff;text-align:center;border:none;outline:none; width: 60px;}
+/* #button input {margin: 5px;} */
+
+
+#move li {font-size: 0.7rem;}
+
+.icon {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+
+
+/* footer*/
+footer {width: 100%; 
+    background: #333; 
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 30px 0;
+    margin: 100px 0 0 0;
+    position: relative; bottom: 0;
+}
+
+.cs {width: 90%; margin: 0 auto;}
+
+.cs div { width: 90%; margin: 0 auto;}
+
+
+.foot1 {margin: auto 0; font-size: 0.6rem;}
+.foot1 h2, .foot1 h3 {margin: 10px 0;}
+.foot2 {padding: 0 0 10px 0;}
+.foot2 li a {color: #fff;}
+.detail li{margin: 10px 0;}
+
+
+.rule li {float: left; width: 50%; text-align: left; }
+.rule a {font-size: 0.7rem; 
+    display: inline-block; 
+    border-bottom: 1px solid white; 
+    margin: 5px 0 5px 0; }
+
+.foot3 ul:nth-child(1) {display: flex;}
+.foot3 ul span {
+        font-size: 0.6rem; 
+        border-bottom:1px solid #fff;
+        margin: 3px 10px 0 10px;
+    }
+.detail{
+    display: none;
+} 

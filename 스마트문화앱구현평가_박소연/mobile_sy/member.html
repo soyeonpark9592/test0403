@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="css/reset.css"> <!-- 항상 가장 최상위에 써야함 -->
+    <link rel="stylesheet" href="css/member.css">
+
+    
+    <style>
+        
+    </style>
+
+</head>
+<body>
+    <!-- 상단head -->
+    <header id="head">
+        <div id="header">
+       
+           <ul class="button"><a href="login.html"><img src="img/arrow.png" alt="btn"></a></ul>
+       
+           <ul class="logo"><a href="mobile.html"><img src="img/logo_self.png" width="60px" heigth ="60px" alt="로고"></a></ul>
+       
+           <ul class="tm cf">
+               <li><a href="#"><img src="img/searchw.png" alt="tm"></a></li>
+               <li><a href="#"><img src="img/basket.png" alt="tm"></a></li>
+               <li><a href="mobile.html"><img src="img/home.png" alt="tm"></a></li>
+           </ul>
+
+        </div>
+    </header>
+
+    <form>
+        <fieldset>
+           <div>
+            <h2>회원가입</h2>
+            <table class="join_table">
+                <tr>
+                    <td>
+                        <label for="id">아이디 (6자 이상)</label>
+                    </td>
+                    <td>
+                        <input type="text" id="id" required placeholder="아이디를 입력해주세요.">
+                    </td>
+                    <td>
+                        <button>중복확인</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pwd1">비밀번호</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pwd1" required placeholder="비밀번호를 입력해주세요.">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd2">비밀번호 (확인)</label></td>
+                    <td><input type="password" id="pwd2" required placeholder="한번 더 입력해주세요."></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="name">이름</label></td>
+                    <td><input type="text" id="name" required placeholder="이름을 입력해주세요."></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="email">이메일주소</label></td>
+                    <td><input type="text" id="email" required placeholder="예:onulhoi@onul.com"></td>
+                    <td><button>중복확인</button></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">휴대폰</label></td>
+                    <td><input type="number" id="phone" required placeholder="숫자만 입력해주세요."></td>
+                    <td><button>인증받기</button></td>
+                </tr>
+            </table>
+
+           </div>
+           
+
+           <div>
+            <h2>배송지 정보</h2>
+            <table class="join_table">
+                <tr>
+                    <td><label for="enter">공동현관</label></td>
+                    <td>
+                        <input type="radio" value="y" name="receive" id="enter_y">
+                        <label for="enter_y">예</label>
+                        <input type="radio" value="n" name="receive" id="enter_n">
+                        <label for="enter_n">아니오</label>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="address">주소</label></td>
+                    <td><input type="text" id="address" required placeholder="주소를 입력해주세요."></td>
+                    <td><button>검색</button></td>
+                </tr>
+            </table>
+           </div> 
+
+           <div>
+            <h2>약관 전체동의</h2>
+            <ul class="mc3">
+                <li>
+                    <input type="checkbox" value="agree" name="chk1" id="agree01" required>
+                    <label for="agree01">모두 동의합니다.</label>
+                </li>
+                <li>
+                    <input type="checkbox" value="agree" name="chk1" id="agree02" required>
+                    <label for="agree02">이용약관 필수 동의 <span>자세히보기</span></label>
+                </li>
+                <li>
+                    <input type="checkbox" value="agree" name="chk1" id="agree03" required>
+                    <label for="agree03">개인정보처리방침 필수 동의 <span>자세히보기</span></label>
+                    
+                </li>
+                <li>
+                    <input type="checkbox" value="agree" name="chk1" id="agree04" required>
+                    <label for="agree04">마케팅 활용 및 광고성 정보 수신 동의 <br><b>오늘회의 이벤트 및 할인 혜택을 누구보다 빨리 받아보실 수 있어요!</b></label>
+                </li>
+            </ul>
+            </div>
+        </fieldset>
+     </form>
+
+     <footer>
+        <div class="cs">
+            
+              <div class="foot1">
+                   <h2>오늘회 고객센터</h2>
+                   <h2>1661-1319</h2>
+                   <h3>주중 오전 10시-오후 8시</h3>
+              </div>
+        
+             <div class="foot2">
+                <ul class="rule cf">
+                       <li><a href="#">이용약관</a></li>
+                       <li><a href="#">개인정보처리방침</a></li>
+                       <li><a href="#">입점문의</a></li>
+                       <li><a href="#">채용문의</a></li>
+                </ul>
+             </div>
+               
+        
+            <div class="foot3">
+             <ul>
+                <h3>(주) 오늘식탁</h3>
+                <span>자세히보기 ▼</span>
+            </ul>
+             <ul class="detail">
+                <li>대표이사 : 김재현</li>
+                <li>주소 : 부산광역시 부산진구 서전로 8, 위워크 서면</li>
+                <li>사업자등록번호 : 705-81-00628 사업자정보확인</li>
+                <li>통신판매업 : 2019-서울강남-05347호</li>
+                <li>개인정보보호책임자 : 유선우</li>
+                <li>이메일(외부기관전용) : contact@onul-hoi.com</li>
+                <li>이메일(고객전용) : cx@onul-hoi.com</li>
+                               
+             </ul>
+            </div>
+        </div>
+        </footer>
+
+
+
+   
+</body>
+</html>

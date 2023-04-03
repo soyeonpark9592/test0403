@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="css/reset.css"> <!-- 항상 가장 최상위에 써야함 -->
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+
+    
+
+</head>
+
+<script>
+    $(function(){
+        $(".foot3 span").click(function(){
+            $(this).parent().next().stop().slideToggle(800);
+        });
+    
+    });
+</script>
+
+<body>
+
+    <header id="head">
+   
+        <div id="header" class="cf">
+       
+           <ul class="button"><img src="img/arrow.png" alt="btn"></ul>
+       
+           <ul class="logo"><a href="mobile.html"><img src="img/logo_self.png" width="60px" heigth ="60px" alt="로고"></a></ul>
+       
+           <ul class="tm cf">
+               <li><a href="#"><img src="img/searchw.png" alt="tm"></a></li>
+               <li><a href="#"><img src="img/basket.png" alt="tm"></a></li>
+               <li><a href="mobile.html"><img src="img/home.png" alt="tm"></a></li>
+           </ul>
+        </div>
+       </header>
+     
+<section> 
+    <div class="login">
+         <div id="box">
+         <h2>로그인</h2>
+         <form class="cf" action="imsert.php" method="post">
+            <div id="form">
+                
+                <ul id="id1"><input type="text" name="id" id="id" placeholder="아이디를 입력해주세요."></ul>
+                
+                <ul id="id2"><input type="password" name="pw" id="pw" placeholder="비밀번호를 입력해주세요." ></ul>
+
+                <ul id="id3">
+
+                 <li>
+                  <input type="checkbox" class="check" id="chk">
+                  <label for="chk">아이디 저장</label>
+                 </li>
+
+                 <li><a href="#">아이디 찾기 ㅣ</a></li>
+                 <li><a href="#">비밀번호 찾기</a></li>
+
+
+                </ul>
+
+                <ul id="button">
+                    <!-- <input type="submit" value="로그인" class="btn"><br> -->
+                    <a class="log" href="#">로그인</a><br>
+                    <a href="member.html">회원가입</a>
+                </ul>
+                
+                <ul id="move">
+                        <li><a href="#">ㅣ간편로그인ㅣ</a></li>
+                        <li class="icon"><a href="#"><img src="img/kakao.png" width="35" alt="kakao"></a></li>
+                        <li class="icon"><a href="#"><img src="img/naver.png" width="35" alt="icon"></a></li>
+                </ul>
+            
+             </div>
+          </form>
+         </div>
+        
+    </div>
+</section> 
+
+<footer>
+    <div class="cs">
+        
+          <div class="foot1">
+               <h2>오늘회 고객센터</h2>
+               <h2>1661-1319</h2>
+               <h3>주중 오전 10시-오후 8시</h3>
+          </div>
+    
+         <div class="foot2">
+            <ul class="rule cf">
+                   <li><a href="#">이용약관</a></li>
+                   <li><a href="#">개인정보처리방침</a></li>
+                   <li><a href="#">입점문의</a></li>
+                   <li><a href="#">채용문의</a></li>
+            </ul>
+         </div>
+           
+    
+        <div class="foot3">
+         <ul>
+            <h3>(주) 오늘식탁</h3>
+            <span>자세히보기 ▼</span>
+        </ul>
+         <ul class="detail">
+            <li>대표이사 : 김재현</li>
+            <li>주소 : 부산광역시 부산진구 서전로 8, 위워크 서면</li>
+            <li>사업자등록번호 : 705-81-00628 사업자정보확인</li>
+            <li>통신판매업 : 2019-서울강남-05347호</li>
+            <li>개인정보보호책임자 : 유선우</li>
+            <li>이메일(외부기관전용) : contact@onul-hoi.com</li>
+            <li>이메일(고객전용) : cx@onul-hoi.com</li>
+                           
+         </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

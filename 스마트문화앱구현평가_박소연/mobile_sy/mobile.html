@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="css/reset.css"> <!-- 항상 가장 최상위에 써야함 -->
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+
+
+</head>
+
+<script>
+
+</script>
+
+<body>
+    <!-- <div class=".skip">
+    <a href="#menu">메뉴바로가기</a>
+    <a href="#logo">콘텐츠바로가기</a>
+</div> -->
+
+    <header id="head">
+
+        <div id="header">
+
+            <ul id="button"><button class="hamburger">&#9776;</button></ul>
+
+            <ul id="logo">
+                <li><a href="#"><img src="img/logo_self.png" width="60px" heigth="60px" alt="로고"></a></li>
+            </ul>
+
+            <ul class="tm cf">
+                <li><a href="#"><img src="img/searchw.png" alt="tm"></a></li>
+                <li><a href="#"><img src="img/basket.png" alt="tm"></a></li>
+                <li><a href="login.html"><img src="img/mem.png" alt="tm"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 메인배너 -->
+    <div id="section">
+        <div id="slide">
+        <ul class="ban cf">
+            <li><a href="#"><img src="img/main.jpg" alt="ban"></a></li>
+            <li><a href="#"><img src="img/banner_2.jpg" alt="ban"></a></li>
+            <li><a href="#"><img src="img/banner_3.jpg" alt="ban"></a></li>
+        </ul>
+        </div>
+
+        <!-- 카테고리 -->
+        <nav id="menu">
+            <div class="mm">
+                <h2>카테고리<img class="x" src="img/x.png" width="15" height="15" alt="mn"></h2>
+
+                <ul class="sub">
+                    <li><a href="#">추천회</a></li>
+
+                    <li> <a href="#">1/2인분</a></li>
+
+                    <li class="function">
+                        <a href="#">흰살회</a>
+                        <img class="down" src="img/arrow-down.png" alt="ar">
+                        <img class="up" src="img/arrow_up.png" alt="ar">                       
+                        <ul class="sub1">
+                            <li><a href="#">제철회</a></li>
+                            <li><a href="#">광어/우럭</a></li>
+                            <li><a href="#">돔종류</a></li>
+                            <li><a href="#">기타횟감</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="function">
+                        <a href="#">붉은회</a>
+                        <img class="down" src="img/arrow-down.png" alt="ar">
+                        <img class="up" src="img/arrow_up.png" alt="ar">
+                         <ul class="sub1">
+                            <li><a href="#">제철회</a></li>
+                            <li><a href="#">참치/방어</a></li>
+                            <li><a href="#">기타횟감</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="function">
+                        <a href="#">갑각/어패류</a>
+                        <img class="down" src="img/arrow-down.png" alt="ar">
+                        <img class="up" src="img/arrow_up.png" alt="ar">
+
+                        <ul class="sub1">
+                            <li><a href="#">새우종류</a></li>
+                            <li><a href="#">킹크랩/랍스터</a></li>
+                            <li><a href="#">조개류</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="function">
+                        <a href="#">탕종류</a>
+                        <img class="down" src="img/arrow-down.png" alt="ar">
+                        <img class="up" src="img/arrow_up.png" alt="ar">
+
+                        <ul class="sub1">
+                            <li><a href="#">매운탕</a></li>
+                            <li><a href="#">지리/맑은탕</a></li>
+                            <li><a href="#">찌개류</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+
+                    <li> <a href="#">기타</a></li>
+                    <li><a href="#">드림마켓</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 하단롤링 -->
+        <div id="roll">
+            <a class="on" href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+
+        <!-- 배송지검색 -->
+        <div id="search">
+            <ul class="box">
+                <li class="box1">
+                    <ul class="box_content">
+                        <li class="box_img">
+                            <a href="#"><img src="img/location.png" alt="location"></a>
+                        </li>
+                        <li class="box_text">
+                            <a href="#">배송가능 여부 먼저 확인하기</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 특가세일 -->
+
+        <section class="lg">
+            <legend>오늘만, 특가 Sale
+                <p class="more"><a href="detail.html">더보기<img src="img/more.png" alt="more"></a>
+                </p>
+            </legend>
+
+            <ul class="sale">
+                <li><a href="detail.html"><img src="img/sale.jpg" alt="sale"></a></li>
+
+                <li>
+                    <ul class="clock">
+                        <li class="clockimg"><img src="img/clock.png" alt="clock"></li>
+                        <li class="clocktime">02:23:18</li>
+                    </ul>
+                </li>
+
+                <li class="explain">
+                    <ul>
+                        <li>[직송] 프리미엄 혼술에는 제철 모둠회 4종 세트 200g</li>
+                        <li>광어, 도미, 참돔, 참다랑어 대뱃살, 가마살 구성</li>
+                        <li><a>15%</a> 21,080원</li>
+                        <li>24,000원</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul>
+                        <li class="star"><a href="#"><img src="img/star.png" alt="star"></a></li>
+                        <li class="starnum">4.7 (1,236)</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- best menu -->
+        <section class="lg">
+            <legend>오늘회가 자신있어요 !
+                <p class="more"><a href="#">더보기<img src="img/more.png" alt="more"></a>
+                </p>
+            </legend>
+
+            <ul class="content">
+                <li>
+                    <a href="#">
+                        <img src="./img/me.jpg" alt="f">
+                        <p>서더리 매운탕 (3~4인용)</p>
+                        <p>깔끔한 마무리 얼큰 우럭매운탕<p>
+                        <p>13,900 원</p>
+                    </a>
+                    <div class="rv">
+                        <img src="img/star.png" alt="st">
+                        <span>4.7 (1,236)</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/bang.jpg" alt="f">
+                        <p>숙성 방어회 200g</p>
+                        <p>고소함 가득한 마지막 겨울방어<p>
+                        <p>15,400 원</p>
+                    </a>
+                    <div class="rv">
+                        <img src="img/star.png" alt="st">
+                        <span>4.7 (1,236)</span>
+                    </div>
+                </li>
+            </ul>
+
+           
+        </section>
+
+        <!-- 메인메뉴 -->
+        <section class="main_menu">
+            <ul class="grid1">
+                <li><a href="#"><img src="img/mixed.jpg" alt="mm"><span>추천회</span></a></li>
+                <li><a href="#"><img src="img/season_fish.jpg" alt="mm"><span>1/2인분</span></a></li>
+                <li><a href="#"><img src="img/kw.jpg" alt="mm"><span>흰살회</span></a></li>
+                <li><a href="#"><img src="img/redh.jpg" alt="mm"><span>붉은회</span></a></li>
+            </ul>
+            <ul class="grid2">
+                <li><a href="#"><img src="img/srp.jpg" alt="mm"><span>갑각/어패</span></a></li>
+                <li><a href="#"><img src="img/fish_stew.jpg" alt="mm"><span>탕종류</span></a></li>
+                <li><a href="#"><img src="img/ect2.jpg" alt="mm"><span>기타</span></a></li>
+                <li><a href="#"><img src="img/ect.jpg" alt="mm"><span>드림마켓</span></a></li>
+            </ul>
+
+
+        </section>
+
+        <!-- salmon -->
+        <section class="lg salmon">
+            <legend>나만의 홈파티 레시피
+                <p class="more"><a href="#">더보기<img src="img/more.png" alt="more"></a>
+                </p>
+            </legend>
+
+            <div id="video">
+                <div class="vd">
+                    <iframe width="337.5" height="300" src="https://www.youtube.com/embed/XGCDMWPITZM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+
+            </div>
+    
+                <ul class="content">
+                    <li>
+                        <a href="#">
+                            <img src="./img/salmon1.jpg" alt="f">
+                            <p>숙성 연어회 뱃살 150g</p>
+                            <p>부드러운 연어 뱃살 덮밥 레시피<p>
+                            <p>14,500원</p>
+                        </a>
+                        <div class="rv">
+                            <img src="img/star.png" alt="st">
+                            <span>4.8(1,100)</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/salmon2.jpg" alt="f">
+                            <p>숙성 연어회 set 300g</p>
+                            <p>탱글한 식감의 도톰 연어회<p>
+                            <p>16,500원</p>
+                        </a>
+                        <div class="rv">
+                            <img src="img/star.png" alt="st">
+                            <span> 4.6 (986)</span>
+                        </div>
+                    </li>
+                </ul>
+    
+               
+        </section>
+
+        <!-- recommend menu -->
+        <section class="lg">
+            <legend>혼자서 느끼는 여유
+                <p class="more"><a href="#">더보기<img src="img/more.png" alt="more"></a>
+                </p>
+            </legend>
+
+            <ul class="content">
+                <li>
+                    <a href="#">
+                        <img src="./img/re1.jpg" alt="f">
+                        <p>[나혼자] 숙성 참돔 필렛 set</p>
+                        <p>쫄깃한 참돔회와 퇴근후 한잔<p>
+                        <p>14,500원</p>
+                    </a>
+                    <div class="rv">
+                        <img src="img/star.png" alt="st">
+                        <span> 4.7(1,260)</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/re2.jpg" alt="f">
+                        <p>나혼자] 광어회 set 180g</p>
+                        <p>저온 숙성으로 느껴보는 부드러움<p>
+                        <p>12,900원</p>
+                    </a>
+                    <div class="rv">
+                        <img src="img/star.png" alt="st">
+                        <span>4.7(1,206)</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- dream market -->
+        <section class="lg">
+            <legend>친환경 드림 마켓
+                <p class="more"><a href="#">더보기<img src="img/more.png" alt="more"></a>
+                </p>
+            </legend>
+
+            <ul class="content">
+                <li>
+                    <a href="#">
+                        <img src="./img/veg1.jpg" alt="f">
+                        <p>유기농 쌈채소 set</p>
+                        <p>깻잎+상추+겨자채+청상추 구성<p>
+                        <p>5,900원</p>
+                    </a>
+                    <div class="rv">
+                        <img src="img/star.png" alt="st">
+                        <span> 4.2(756)</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/veg2.jpg" alt="f">
+                        <p>와사비+강판 set</p>
+                        <p>직접 갈아 먹는 풍미좋은 와사비<p>
+                        <p>11,500원</p>
+                    </a>
+                    <div class="rv">
+                        <img src="img/star.png" alt="st">
+                        <span>4.3(850)</span>
+                    </div>
+                </li>
+            </ul>
+
+
+
+        </section>
+
+        <!-- blog -->
+        <section class="lg">
+            <legend>쫄깃한 봄철 쭈꾸미
+                <p class="more"><a href="#">더보기<img src="img/more.png" alt="more"></a>
+                </p>
+            </legend>
+
+            <div class="blog">
+                <ul>
+                    <li><img src="img/jju_mody.png" alt="jju" usemap="#jju">
+                        <map name="jju" id="jju">
+                            <area shape="rect" coords="341,485,555,587" href="#" alt="더알아보기"></map>
+                    </li>
+                    <li><img src="img/jju2.jpg" alt="jju" ></li>
+                    <li><b>제철에 조업한 주꾸미</b>를 제대로 맛보려면 본연의 맛을 그대로 살린 '주꾸미찜'으로 드셔보세요. 자극적인 양념이 없어도 생물 특유의 쫄깃하면서도 부드러운 식감과
+                        은은한 단맛과 고소한 맛이 참 풍부하니까요.<button type="button" class="bt1">상품보기</button></li>
+                    <li><img src="img/jju3.jpg" alt="jju"></li>
+                    <li><b>봄날의 부추는 영양이 가득해</b> 녹용이나 인삼과도 바꾸지 않는다는 말이 있어요. 특유의 알싸하고 향긋한 맛은 달달한 주꾸미와 궁합이 좋습니다.따끈하게 금방 찐
+                        주꾸미를 싱싱한 부추 위에 올려 드리기 때문에 남은 김으로 부드럽게 익은 부추를 드실 수 있어요. <button type="button" class="bt1">상품보기</button> </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="cs">
+
+                <div class="foot1">
+                    <h2>오늘회 고객센터</h2>
+                    <h2>1661-1319</h2>
+                    <h3>주중 오전 10시-오후 8시</h3>
+                </div>
+
+                <div class="foot2">
+                    <ul class="rule cf">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">입점문의</a></li>
+                        <li><a href="#">채용문의</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="foot3">
+                    <ul>
+                        <h3>(주) 오늘식탁</h3>
+                        <span>자세히보기 ▼</span>
+                    </ul>
+                    <ul class="detail">
+                        <li>대표이사 : 김재현</li>
+                        <li>주소 : 부산광역시 부산진구 서전로 8, 위워크 서면</li>
+                        <li>사업자등록번호 : 705-81-00628 사업자정보확인</li>
+                        <li>통신판매업 : 2019-서울강남-05347호</li>
+                        <li>개인정보보호책임자 : 유선우</li>
+                        <li>이메일(외부기관전용) : contact@onul-hoi.com</li>
+                        <li>이메일(고객전용) : cx@onul-hoi.com</li>
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<script src="js/mobile.js"></script>
+</body>
+
+</html>
